@@ -22,12 +22,11 @@ Setting your environment
 ---------------------
 Create the couple environment variables below:
 
-$GOROOT = $HOME/go
+`$GOROOT = $HOME/go`
 
-$GOPATH = $GOROOT/bin
+`$GOPATH = $GOROOT/bin`
 
-The GOPATH can be set wherever you want but please read this
-[topic][0]
+The GOPATH can be set wherever you want but please read this [topic][0]
 to understand how they work.
 
 Clone repository to: `$GOPATH/src/github.com/erikvanbrakel/terraform-provider-victorops`
