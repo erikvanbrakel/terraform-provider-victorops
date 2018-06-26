@@ -1,0 +1,25 @@
+language: go
+
+go:
+  - 1.8
+
+go_import_path: github.com/erikvanbrakel/terraform-provider-victorops
+
+install:
+  - go get -u github.com/mitchellh/gox
+  - chmod +x ./build/cross-compile.sh
+
+script:
+  # Testing scripts etc
+
+after_success: ./build/cross-compile.sh
+
+deploy:
+  provider: releases
+  file_glob: true
+  api_key: "$GITHUB_TOKEN"
+  file: "pkg/*"
+  skip_cleanup: true
+  on:
+    tags: true
+    go: 1.8
