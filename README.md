@@ -14,7 +14,7 @@ Requirements
 ------------
 
  - [Terraform] 0.9.x
- - [Go] 1.8 (to build the provider plugin)
+ - [Go] 1.9 (to build the provider plugin)
  - [VictorOps] Must have an account to be able to
    get api id and key.
 
