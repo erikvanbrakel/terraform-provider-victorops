@@ -6,4 +6,4 @@
   + [victorops_team](d/victorops_team.md)
 
 - Resources
-  + [victorops_team][r/victorops_team.md)
+  + [victorops_team](r/victorops_team.md)
